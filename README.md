@@ -1,16 +1,94 @@
-# React + Vite
+# 📝 MegaBlog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MegaBlog is a full-featured blogging platform built using **React, Appwrite, Redux Toolkit, and React Hook Form**.  
+Users can create accounts, publish blog posts, upload images, edit or delete posts, and read blogs from others — similar to Medium-style blogging.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔐 User Authentication (Signup/Login/Logout)
+- 🧑‍💻 Create, Read, Update & Delete (CRUD) posts
+- 📸 Image upload using Appwrite Storage
+- ✍️ Rich Text Editor using TinyMCE
+- 🎨 Responsive UI and clean design
+- 🗂 State management with Redux Toolkit
+- 📦 Backend powered by Appwrite Services
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Category | Technology |
+|---------|------------|
+| Frontend | React, Vite, Redux Toolkit |
+| Backend | Appwrite |
+| Editor | TinyMCE |
+| Form Handling | React Hook Form |
+| File Storage | Appwrite Storage |
+
+---
+
+## 📂 Project Structure
+
+/src
+├─ components
+├─ pages
+├─ appwrite (services)
+├─ store
+└─ utils
+
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+```bash
+# Clone repository
+git clone https://github.com/khan-guddu-02/megaBlog.git
+
+# Navigate to folder
+cd megaBlog
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+## 🧰 Environment Variables
+
+Create a .env file in the root directory:
+
+VITE_APPWRITE_ENDPOINT=your-endpoint
+VITE_APPWRITE_PROJECT_ID=your-project-id
+VITE_APPWRITE_DATABASE_ID=your-database-id
+VITE_APPWRITE_COLLECTION_ID=your-collection-id
+VITE_APPWRITE_BUCKET_ID=your-bucket-id
+
+
+📌 Roadmap / Future Enhancements
+
+🔍 Search functionality
+
+❤️ Like / Comment system
+
+👤 User profile customization
+
+🌙 Dark mode support
+
+
+
+
+🤝 Contributions
+
+Contributions are welcome!
+If you have ideas, feel free to open an issue or submit a PR.
+
+## 👨‍💻 Author
+
+Gareeb Nawaz
+MERN Stack Developer
+GitHub: https://github.com/khan-guddu-02
